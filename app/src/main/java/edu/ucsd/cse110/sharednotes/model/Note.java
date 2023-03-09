@@ -35,6 +35,7 @@ public class Note {
     @SerializedName("title")
     @NonNull
     public String title;
+    public int version;
 
     /** The content of the note. */
     @SerializedName("content")
